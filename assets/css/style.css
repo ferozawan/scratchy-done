@@ -1,0 +1,296 @@
+@import url(./fonts.css);
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn-primary{
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    width: 162px;
+    height: 45px;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: black;
+    transition: all 0.5s ease;
+}
+.btn-secondary{
+    color: #828282;
+    background-color: transparent;
+    border: 2px solid #828282;
+}
+.btn-secondary:hover{
+    color: white;
+    background-color: #828282;
+    transition: all 0.5s ease;
+}
+.nav-item{
+    font-size: 14px;
+    font-family: 'livory-bold';
+}
+.hero-para{
+    font-family: 'livory-regitalic';
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+}
+.subhero-para{
+    font-family: 'livory' !important;
+    color: #333333CC;
+    letter-spacing: 1px;
+}
+
+.featured-post-heading{
+    color: #9A3C3F;
+}
+.featured-post-link{
+    color: #9A3C3F;
+    text-decoration: none;
+}
+.featured-post-date{
+    font-size: 13px;
+    color: #333333CC;
+}
+
+.latest-heading{
+    color: #9A3C3F;
+    font-family: 'livory';
+    letter-spacing: 1px;
+}
+.latest-date{
+    color: #333333CC;
+    font-size: 13px;
+}
+
+.brushes-para{
+    font-family: 'livory';
+}
+.brushes-link{
+    color: #9A3C3F !important;
+}
+.about-para{
+    font-size: 12px;
+    color: #333333CC;
+}
+footer{
+    color: #BBBBBB;
+    background-color: #222222;
+}
+.footer-para{
+    font-size: 13px;
+}
+.footer-link{
+    color: #EEEEEE !important;
+}
+
+
+@media screen and (max-width:576px){
+    .insta-pic-div{
+        width: 80%;
+    }
+    .insta-image{
+        width: 80%;
+    }
+    .featured-in-link{
+        font-size: 9px;
+        list-style: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /* Dark background for smaller screens */
+    .navbar {
+      background-color: black; /* Change to your preferred dark color */
+    }
+    .nav-link {
+        color: #fff !important;
+    }
+    .navbar-toggler{
+        background-color: #fff !important;
+    }
+}
+
+/* 
+#################################### 
+#             ABOUT US PAGE        #
+#################################### */
+.about-social-icon{
+    color: black !important;
+}
+.about-social-icon:hover{
+    color: #828282 !important;
+}
+.sub-about-para{
+    font-size: 12px;
+    color: #333333CC;
+}
+.work-head{
+    color: #9A3C3F;
+}
+.carouselExample{
+    width: 525px;
+    position: relative;
+}
+.carousel-item{
+    width: 525px;
+}
+.carousel-inner{
+    width: 525px;
+}
+.carousel-control-prev{
+    position: absolute;
+    left: 19.5rem;   
+}
+.carousel-control-next{
+    position: absolute;
+    right: 19.5rem;
+}
+/* 
+#################################### 
+#             Feedback        #
+#################################### */
+
+
+.h1-tag{
+    text-align: center;
+}
+.form-content-section{
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+@media screen and (max-width:600px){
+    .form-content-section{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:800px){
+    .form-content-section{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .form-group{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+.myclass{
+    border-radius: 20px;
+}
+.btn-secondary:hover{
+    color: white;
+    background-color: #828282;
+    transition: all 0.5s ease;
+    
+    
+}
+
+/* 
+#################################### 
+#             Contact Us       #
+#################################### */
+
+
+
+.contact-section{
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background-color: #f5f5f5;
+}
+
+
+/* #################################### 
+#         lessons&update      #
+####################################  */
+
+.searchbar-borderless {
+    border: none;
+    font-size: 20px;
+    
+}
+
+.searchbar-borderless:hover, .searchbar-borderless:active, .searchbar-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: 5px rgb(0, 0, 0);
+    
+}
+
+
+.info-section{
+  text-align: center;
+  margin-top: 50px;
+  /* font-size: 1rem; */
+}
+
+
+h1{
+  color: #9a3c37;  
+}
+
+p{
+  margin: 0;
+  font-weight: 200;
+  color:black;
+  line-height: 1.87rem;
+  letter-spacing: 0.09rem;
+  font-synthesis: none;  
+}
+
+.main-section .container{
+  display: grid;
+  place-content: center;
+  height: inherit;
+} 
+.bg-main{
+  height: 80vh;
+  position: relative;
+}
+.title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.card-block {
+   font-family: 'livory';
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  box-shadow: none;
+}
+.para-{
+    font-family: 'livory';
+}
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5;
+  border: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-top:20px;
+}
+.btn {
+margin-top: auto;
+}
+footer{
+background-color: rgb(0, 0, 0);
+display: flex;
+}
+
+footer p{
+color: white;
+font-size: medium;
+}
+
+

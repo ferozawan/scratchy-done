@@ -1,0 +1,782 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="dns-prefetch" href="https://code.jquery.com/">
+	<link rel="dns-prefetch" href="https://cdn.mysitemapgenerator.com/">
+	<title>Sitemap</title>
+	<meta name="description" content="thescratchynib.com Sitemap" />
+	<meta name="keywords" content="thescratchynib.com, Sitemap" />
+	<meta name="generator" content="Mystemapgenerator.com HTML Sitemap" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+	<style type="text/css">
+		* {
+			box-sizing: border-box !important;
+		}
+
+		html {
+			font-family: sans-serif;
+		}
+
+		body {
+			background: #fff;
+			max-width: 980px;
+			margin: 0 auto;
+			padding: 5px;
+			font: 14px "Arial", Tahoma, sans-serif;
+			min-height: 100%;
+		}
+
+		h1 {
+			font-size: 26px;
+		}
+
+		div.footerinfo {
+			margin-top: 16px;
+			color: #666;
+			font-size: 12px;
+			text-align: right;
+		}
+
+		div.footerinfo * {
+			font-size: 12px;
+		}
+
+		.sitemap {
+			margin: 5em 0
+		}
+
+		.primaryNav {
+			clear: both;
+			width: 100%;
+			margin-top: 3em 0
+		}
+
+		.primaryNav #home {
+			position: absolute;
+			margin-top: -3em;
+			margin-bottom: 0;
+			min-width: 14.5em;
+			width: 100%
+		}
+
+		.primaryNav #home:before {
+			display: none
+		}
+
+		.primaryNav #home.long-cell:before {
+			display: block;
+			position: absolute;
+			border-width: 0;
+			border-color: #ccc;
+			border-style: solid;
+			z-index: -1;
+			border-left-width: 2px;
+			border-top-width: 2px;
+			top: 1.375em
+		}
+
+		@media screen and (max-width:1111px) {
+			.primaryNav #home.long-cell:before {
+				left: -40px;
+				box-shadow: -10px 0 0 0 #fff
+			}
+		}
+
+		.primaryNav #home img {
+			float: left;
+			margin-right: 4px
+		}
+
+		.primaryNav ul {
+			display: flex;
+			flex-wrap: wrap;
+			list-style: none;
+			position: relative;
+			padding-inline-start: 40px
+		}
+
+		.primaryNav li {
+			flex: 1;
+			flex-basis: 14.5em;
+			padding-right: 1.25em;
+			position: relative;
+			min-width: 14.5em
+		}
+
+		.primaryNav li ul li {
+			min-width: 12.5em
+		}
+
+		.primaryNav li ul li ul li {
+			min-width: 10.5em
+		}
+
+		.primaryNav>ul>li {
+			margin-top: 3em
+		}
+
+		.primaryNav li a {
+			margin: 0;
+			padding: .875em .9375em .9375em .9375em;
+			display: block;
+			font-size: .9375em;
+			background: #fff;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			box-shadow: 0 3px 3px #666;
+			text-decoration: none
+		}
+
+		.primaryNav li a:hover {
+			box-shadow: 0 3px 3px 1px #666
+		}
+
+		.primaryNav a:link:after,
+		.primaryNav a:visited:after,
+		.utilityNav a:link:after,
+		.utilityNav a:visited:after {
+			display: block;
+			font-weight: 600;
+			font-size: .75em;
+			margin-top: .25em;
+			word-wrap: break-word;
+			color: #666
+		}
+
+		.primaryNav ul ul {
+			display: block
+		}
+
+		.primaryNav ul ul li {
+			padding-top: .9875em;
+			padding-right: 0
+		}
+
+		.primaryNav ul ul li:first-child {
+			padding-top: 2em
+		}
+
+		.primaryNav ul ul ul {
+			margin-top: .6em;
+			padding-top: .6em;
+			padding-bottom: .625em
+		}
+
+		.primaryNav ul ul ul li {
+			padding-top: .3125em;
+			padding-bottom: .3125em
+		}
+
+		.primaryNav ul ul ul li a {
+			font-size: .75em;
+			padding: .75em;
+			min-width: 90%;
+			width: auto;
+			margin-right: 0;
+			margin-left: auto
+		}
+
+		.primaryNav ul ul ul li:first-child {
+			padding-top: 1em
+		}
+
+		.primaryNav ul ul ul li a:link:after,
+		.primaryNav ul ul ul li a:visited:after {
+			font-size: .75em
+		}
+
+		.primaryNav ul ul ul ul {
+			margin-top: 0;
+			padding-top: .3125em;
+			padding-bottom: .3125em
+		}
+
+		.primaryNav ul ul ul ul li a {
+			padding: .75em;
+			min-width: 80%;
+			width: auto
+		}
+
+		.primaryNav ul ul ul ul li a:link:after,
+		.primaryNav ul ul ul ul li a:visited:after {
+			display: none
+		}
+
+		.primaryNav ul li:after,
+		.primaryNav ul li:before,
+		.primaryNav ul:after,
+		.primaryNav ul:before {
+			display: block;
+			content: '';
+			position: absolute;
+			border-width: 0;
+			border-color: #ccc;
+			border-style: solid;
+			z-index: -2
+		}
+
+		.primaryNav>ul>li:before {
+			height: 1.375em;
+			top: -1.375em;
+			right: calc(50% + .625em);
+			width: calc(100% - 2px);
+			border-top-width: 2px;
+			border-right-width: 2px
+		}
+
+		.primaryNav>ul>li:first-child+li:before {
+			border-top-width: 0;
+			height: 5em;
+			top: -5em
+		}
+
+		.primaryNav ul ul li:after {
+			width: 50%;
+			height: .9875em;
+			top: 0;
+			right: 1px;
+			border-left-width: 2px
+		}
+
+		.primaryNav ul ul li:first-child:before {
+			width: 50%;
+			height: 1.3125em;
+			top: .9875em;
+			right: 1px;
+			border-left-width: 2px
+		}
+
+		.primaryNav>ul>li:last-child:after {
+			border-bottom-width: 0
+		}
+
+		.primaryNav ul ul ul li:before {
+			width: calc(50% - 15px) !important;
+			height: calc(100% - 2px);
+			top: -50%;
+			left: 0;
+			border-left-width: 2px;
+			border-bottom-width: 2px
+		}
+
+		.primaryNav ul ul ul li:first-child:before {
+			height: 2.125em;
+			top: -1px;
+			border-top-width: 2px
+		}
+
+		.primaryNav ul ul ul:before {
+			width: 50%;
+			height: 1.25em;
+			top: -10px;
+			right: 1px;
+			border-left-width: 2px
+		}
+
+		.primaryNav ul ul ul li:after {
+			border-width: 0
+		}
+
+		.primaryNav ul ul ul ul li:before,
+		.primaryNav ul ul ul ul li:first-child:before {
+			display: none
+		}
+
+		.primaryNav ul ul ul ul:before {
+			width: 1px;
+			height: calc(100% + 2.5em);
+			top: -2.5em;
+			left: 0;
+			border-left-width: 2px
+		}
+
+		@media screen and (max-width:30em) {
+			.primaryNav ul {
+				display: block
+			}
+
+			.primaryNav li {
+				width: 100%;
+				padding-right: 0
+			}
+
+			.primaryNav #home {
+				width: 100%;
+				position: relative;
+				margin-bottom: -1em;
+				margin-top: 0
+			}
+		}
+
+		@media screen and (min-width:30em) {
+			.primaryNav>ul>li {
+				max-width: 50%
+			}
+		}
+
+		@media screen and (min-width:38.5em) {
+			.primaryNav>ul>li {
+				max-width: 33%
+			}
+		}
+
+		@media screen and (min-width:50em) {
+			.primaryNav>ul>li {
+				max-width: 25%
+			}
+		}
+
+		@media screen and (min-width:61em) {
+			.primaryNav>ul>li {
+				max-width: 20%
+			}
+		}
+
+		@media screen and (min-width:73em) {
+			.primaryNav>ul>li {
+				max-width: 16.66%
+			}
+		}
+
+		@media screen and (min-width:84.5em) {
+			.primaryNav>ul>li {
+				max-width: 14.285%
+			}
+		}
+
+		@media screen and (min-width:96em) {
+			.primaryNav>ul>li {
+				max-width: 12.5%
+			}
+		}
+
+		@media screen and (min-width:107.5em) {
+			.primaryNav>ul>li {
+				max-width: 11.11%
+			}
+		}
+
+		@media screen and (min-width:119em) {
+			.primaryNav>ul>li {
+				max-width: 10%
+			}
+		}
+
+		a[href$="#"] {
+			cursor: default;
+			color: #333
+		}
+
+		.collapsed_item {
+			display: none !important;
+			cursor: pointer !important
+		}
+
+		.expand_items a {
+			color: #333 !important;
+			text-align: center;
+			cursor: pointer !important
+		}
+
+		a[href$="#"]:not(.collapsed_item, .expand_items a):before {
+			content: "#"
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Sitemap</h1>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://cdn.mysitemapgenerator.com/api/htmlsitemaps.min.js"></script>
+	<div class="sitemap">
+		<nav class="primaryNav">
+			<ul>
+				<li id="home"><a href="https://thescratchynib.com/"><img
+							src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjUxMHB4IiBoZWlnaHQ9IjUxMHB4IiB2aWV3Qm94PSIwIDAgNTEwIDUxMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEwIDUxMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9ImhvbWUiPg0KCQk8cG9seWdvbiBwb2ludHM9IjIwNCw0NzEuNzUgMjA0LDMxOC43NSAzMDYsMzE4Ljc1IDMwNiw0NzEuNzUgNDMzLjUsNDcxLjc1IDQzMy41LDI2Ny43NSA1MTAsMjY3Ljc1IDI1NSwzOC4yNSAwLDI2Ny43NSANCgkJCTc2LjUsMjY3Ljc1IDc2LjUsNDcxLjc1IAkJIi8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+							width="16" height="16" alt="homepage" /> Home page</a></li>
+				<li><a href="https://thescratchynib.com/works">Work - The Scratchy Nib: Calligraphy by Juhi Chitra</a>
+				</li>
+				<li><a href="#" onclick="return false">Blog</a>
+					<ul>
+						<li><a href="#" onclick="return false">2017</a>
+							<ul>
+								<li><a href="#" onclick="return false">3</a>
+									<ul>
+										<li><a href="#" onclick="return false">23</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="https://thescratchynib.com/blog/a-stationery-addicts-guide-to-tokyo">A
+								stationery-addict&#39;s guide to Tokyo - The Scratchy Nib, Calligraphy by Juhi
+								Chitra</a></li>
+						<li><a href="https://thescratchynib.com/blog/free-copperplate-guideline-sheets">Which
+								copperplate guideline sheets to use: the 3 best options - The Scratchy Nib, Calligraphy
+								by Juhi Chitra</a></li>
+						<li><a
+								href="https://thescratchynib.com/blog/how-to-assemble-a-copperplate-learning-kit-in-india">How
+								to assemble a copperplate starter kit - The Scratchy Nib, Calligraphy by Juhi Chitra</a>
+						</li>
+						<li><a href="https://thescratchynib.com/blog/7-ideas-try-modern-calligraphy-2018-inspiration">7
+								ideas to up your modern calligraphy game this year - The Scratchy Nib, Calligraphy by
+								Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/featured-in-better-homes-gardens-how-to-start-a-bullet-journal">How
+								to start a Bullet Journal: Feature in Better Homes & Gardens - The Scratchy Nib,
+								Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/best-calligraphers-unique-style-follow-instagram">13
+								best calligraphers with a unique style to follow on Instagram - The Scratchy Nib,
+								Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/learn-pointed-pen-calligraphy-workshop-delhi">Recap:
+								Pointed pen Calligraphy Workshop in Delhi - The Scratchy Nib, Calligraphy by Juhi
+								Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/womanning-a-calligraphy-booth-at-the-homegrown-brunch">Recap:
+								(Wo)Manning a Calligraphy Booth at the HomeGrown Brunch - The Scratchy Nib, Calligraphy
+								by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/calligraphy-workshop-delhi-project-eve">Recap:
+								Brush calligraphy workshop for The She Sessions by Project Eve - The Scratchy Nib,
+								Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/watercolor-procreate-brushes">New Watercolour
+								Brushes for Procreate - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/diy-how-i-handmade-my-business-cards">How I
+								handmade my business cards: 3 DIY designs - The Scratchy Nib, Calligraphy by Juhi
+								Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/buy-victorian-love-letter-handmade-calligraphy-gift-for-valentines">Buy
+								a victorian-style personalised letter for a handmade Valentine&#39;s gift - The Scratchy
+								Nib, Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/recap-delightful-kits-sunny-vibe-wrokshop">Recap:
+								Pretty little kits and a happy vibe at the April workshop - The Scratchy Nib,
+								Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/calligraphy-workshop-st-stephens">Recap:
+								Calligraphy Workshop at St. Stephen&#39;s College - The Scratchy Nib, Calligraphy by
+								Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/handmade-harry-potter-gift-hogwarts-acceptance-letter">Buy
+								a handmade Hogwarts acceptance letter—the perfect gift for a Harry Potter fan - The
+								Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/lettering-workshop-nift-delhi">Recap: a two-day
+								workshop at my alma mater, NIFT New Delhi - The Scratchy Nib, Calligraphy by Juhi
+								Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/learn-brush-lettering-workbook-printable-pdf">Start
+								learning brush lettering with this printable workbook - The Scratchy Nib, Calligraphy by
+								Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/craft-and-gin-festival-delhi">Recap:
+								Sunday-brunching and lettering at the Gin Festival - The Scratchy Nib, Calligraphy by
+								Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/blog/learn-brush-calligraphy-kits-india">Back in stock:
+								Brush Calligraphy Kits to learn lettering in India - The Scratchy Nib, Calligraphy by
+								Juhi Chitra</a></li>
+						<li class="collapsed_item"><a href="#" onclick="return false">Category</a>
+							<ul>
+								<li><a href="https://thescratchynib.com/blog/category/Workshops+&+Events">Workshops &
+										Events — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li><a href="https://thescratchynib.com/blog/category/DIY+&+Craft">DIY & Craft — Blog -
+										The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li><a href="https://thescratchynib.com/blog/category/Planning+&+Journaling">Planning &
+										Journaling — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li><a href="https://thescratchynib.com/blog/category/Stationery">Stationery — Blog -
+										The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li><a href="https://thescratchynib.com/blog/category/Products+&+Services">Products &
+										Services — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/category/Learn+Calligraphy">Learn
+										Calligraphy — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="expand_items"><a href="#"> &#x25BC; </a></li>
+							</ul>
+						</li>
+						<li class="collapsed_item"><a href="#" onclick="return false">Tag</a>
+							<ul>
+								<li><a href="https://thescratchynib.com/blog/tag/gift">gift — Blog - The Scratchy Nib:
+										Calligraphy by Juhi Chitra</a></li>
+								<li><a href="https://thescratchynib.com/blog/tag/travelers+company">travelers company —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li><a href="https://thescratchynib.com/blog/tag/harry+potter+gift">harry potter gift —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li><a href="https://thescratchynib.com/blog/tag/featured">featured — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li><a href="https://thescratchynib.com/blog/tag/sunday+brunch">sunday brunch — Blog -
+										The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/craft+workshop">craft workshop — Blog
+										- The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/japan">japan —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/procreate">procreate — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/harry+potter">harry potter — Blog -
+										The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/instagram">instagram — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/better+homes+&+gardens">better homes &
+										gardens — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/gin+festival">gin festival — Blog -
+										The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/stationery+stores">stationery stores —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/postcard">postcard — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/diy">diy — Blog
+										- The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/calligraphy+supplies">calligraphy
+										supplies — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/handmade">handmade — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/valentines+day">valentines day — Blog
+										- The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/brush">brush —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/loft">loft —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/bullet+journal">bullet journal — Blog
+										- The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/workshop">workshop — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/digital+calligraphy">digital
+										calligraphy — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/calligraphers">calligraphers — Blog -
+										The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/modern+calligraphy">modern calligraphy
+										— Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/project+eve">project eve — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/watercolor">watercolor — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/brunch">brunch —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/custom+calligraphy">custom calligraphy
+										— Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/vintage">vintage
+										— Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/letter">letter —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/notebooks">notebooks — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/ipad+lettering">ipad lettering — Blog
+										- The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/collegeworkshop">collegeworkshop —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/brushlettering">brushlettering — Blog
+										- The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/blackboard">blackboard — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/business+cards">business cards — Blog
+										- The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/shop">shop —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/stationery+in+india">stationery in
+										india — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/inspiration">inspiration — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/Nift">Nift —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/oblique+pen">oblique pen — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/brush+lettering">brush lettering —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/itoya">itoya —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/muji">muji —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/downloads">downloads — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/creative+market">creative market —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/commission">commission — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/free">free —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/event">event —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/stamps">stamps —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/pointed+pen">pointed pen — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/kyoto">kyoto —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/workbook">workbook — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/calligraphyworkshop">calligraphyworkshop
+										— Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/copperplate">copperplate — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/hogwarts">hogwarts — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/gift+for+boyfriend">gift for boyfriend
+										— Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/printable">printable — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/Brush+pens">Brush pens — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/tokyo">tokyo —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/agenc">agenc —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/collaboration">collaboration — Blog -
+										The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/bujo">bujo —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/food+talk">food
+										talk — Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/beginners">beginners — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/brushpen">brushpen — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/etsy">etsy —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/travel">travel —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/delhi">delhi —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a
+										href="https://thescratchynib.com/blog/tag/tokyo+hands">tokyo hands — Blog - The
+										Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="collapsed_item"><a href="https://thescratchynib.com/blog/tag/nibs">nibs —
+										Blog - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+								<li class="expand_items"><a href="#"> &#x25BC; </a></li>
+							</ul>
+						</li>
+						<li class="expand_items"><a href="#"> &#x25BC; </a></li>
+					</ul>
+				</li>
+				<li><a href="#" onclick="return false">Workshops</a>
+					<ul>
+						<li><a href="https://thescratchynib.com/workshops/introduction-to-pointed-pen">Introduction to
+								Pointed Pen Delhi - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li><a href="https://thescratchynib.com/workshops/modern-calligraphy-for-beginners-delhi">Modern
+								Calligraphy for Beginners — Delhi - The Scratchy Nib, Calligraphy by Juhi Chitra</a>
+						</li>
+						<li><a href="https://thescratchynib.com/workshops/blore1">Calligraphy Workshop for Beginners —
+								Bangalore - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li><a href="https://thescratchynib.com/workshops/brush-calligraphy-workshop-delhi">Brush
+								Calligraphy Workshop for Beginners - The Scratchy Nib, Calligraphy by Juhi Chitra</a>
+						</li>
+						<li><a href="https://thescratchynib.com/workshops/st-stephens">Brush calligraphy at St.
+								Stephen&#39;s College - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/workshops/project-eve-calligraphy-workshop">The She
+								Sessions by Project Eve: Free Brush Calligraphy Workshop - The Scratchy Nib, Calligraphy
+								by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/workshops/pointed-pen-delhi">Introduction to Pointed
+								Pen - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/workshops/brush-lettering-workshop-delhi">Brush
+								Calligraphy Workshop - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/workshops/college-calligraphy-workshop-nift-delhi">2-day
+								brush lettering workshop at NIFT, Delhi - The Scratchy Nib, Calligraphy by Juhi
+								Chitra</a></li>
+						<li class="expand_items"><a href="#"> &#x25BC; </a></li>
+					</ul>
+				</li>
+				<li><a href="https://thescratchynib.com/victorian-love-letter">Personal letter - The Scratchy Nib:
+						Calligraphy by Juhi Chitra</a></li>
+				<li><a href="https://thescratchynib.com/hogwarts-acceptance-letter">Hogwarts Acceptance Letter - The
+						Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+				<li><a href="https://thescratchynib.com/about">About - The Scratchy Nib: Calligraphy by Juhi Chitra</a>
+				</li>
+				<li><a href="https://thescratchynib.com/calligraphy-blog">Calligraphy Lessons & Other Updates (Blog) -
+						The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+				<li><a href="https://thescratchynib.com/calligraphy-workshops">Workshops - The Scratchy Nib: Calligraphy
+						by Juhi Chitra</a></li>
+				<li><a href="https://thescratchynib.com/subscribe">Subscribe to The Scratchy Nib - The Scratchy Nib:
+						Calligraphy by Juhi Chitra</a></li>
+				<li><a href="https://thescratchynib.com/thankyou">Thank you - The Scratchy Nib: Calligraphy by Juhi
+						Chitra</a></li>
+				<li><a href="https://thescratchynib.com/thankyou-contact">Thank you for contacting - The Scratchy Nib:
+						Calligraphy by Juhi Chitra</a></li>
+				<li><a href="https://thescratchynib.com/calligraphy-shop">Custom & Handmade Calligraphy & Lettering
+						Pieces - The Scratchy Nib: Calligraphy by Juhi Chitra</a></li>
+				<li><a href="https://thescratchynib.com/send-inquiry">Send Inquiry - The Scratchy Nib: Calligraphy by
+						Juhi Chitra</a></li>
+				<li><a href="https://thescratchynib.com/thank-you-workshop">Thank you for registering - The Scratchy
+						Nib: Calligraphy by Juhi Chitra</a></li>
+				<li><a href="#" onclick="return false">Shop2</a>
+					<ul>
+						<li><a href="https://thescratchynib.com/shop2/pointed-pen-procreate-brush">Pointed Pen Procreate
+								Brush - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li><a href="https://thescratchynib.com/shop2/chalk-procreate-brush">Chalk Procreate Brush - The
+								Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li><a href="https://thescratchynib.com/shop2/brushpen-procreate">Brush Pen Procreate Brush -
+								The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li><a href="https://thescratchynib.com/shop2/bundle-procreate">[Procreate Brush] iPad Lettering
+								Starter Kit—4 Brushes - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li><a href="https://thescratchynib.com/shop2/procreate-brush-watercolor">[Procreate Brush] iPad
+								Watercolour Calligraphy - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/shop2/learn-brush-lettering-workbook-pdf">Brush
+								Lettering Workbook [PDF] - The Scratchy Nib, Calligraphy by Juhi Chitra</a></li>
+						<li class="collapsed_item"><a
+								href="https://thescratchynib.com/shop2/procreate-brush-bundle-watercolor">[Procreate
+								Brush] iPad Watercolour Bundle—6 Brushes - The Scratchy Nib, Calligraphy by Juhi
+								Chitra</a></li>
+						<li class="expand_items"><a href="#"> &#x25BC; </a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	</div>
+	<div class="footerinfo">Created with <a href="https://www.mysitemapgenerator.com/"
+			target="_blank">MySitemapGenerator</a></div>
+</body>
+
+</html>
